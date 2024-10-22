@@ -1,0 +1,318 @@
+body {
+  // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 100 to 900
+
+  .encode-sans-<uniquifier> {
+    font-family: "Encode Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+}
+
+.conteudo {
+  width: 1250px;
+  justify-content: center;
+  margin-left: 35px;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.divisor {
+  width: 1250px;
+  height: 1px;
+  background-color: #EBEDEF;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.divisor.first {
+  margin-bottom: 10px;
+}
+
+.barra-principal {
+  font-family: "Encode Sans", sans-serif;
+  width: 1170px;
+  height: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+
+.barra-principal :nth-child(1) {
+  color: #c3170c;
+}
+.barra-principal :nth-child(2) {
+  color: #1e4b9b;
+}
+.barra-principal :nth-child(3) {
+  color: #006766;
+}
+.barra-principal :nth-child(4) {
+  color: #07aa47;
+}
+.barra-principal :nth-child(5) {
+  color: #e3662b;
+}
+.barra-principal :nth-child(6) {
+  color: #fb0735;
+}
+.barra-principal :nth-child(7) {
+  color: #ff75bb;
+}
+.barra-principal :nth-child(8) {
+  color: #ec7d00;
+}
+.barra-principal :nth-child(9) {
+  color: #323333;
+}
+.barra-principal :nth-child(10) {
+  color: #a81d83;
+}
+
+.lado-esquerdo {
+  width: 624px;
+  margin-left: 20px;
+}
+
+.materia-principal {
+  color: #c4160c;
+  font-weight: bolder;
+  height: 201px;
+  width: 624px;
+  margin-top: 44px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.materia-secundaria {
+  color: #303134;
+  font-family: "Encode Sans", sans-serif;
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.5px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.images {
+  display: flex;
+  width:
+  flex-wrap: wrap;
+  gap: 20px; 
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+.imagem {
+  width: 193px;
+  height: auto;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.imagem img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.imagem a {
+  display: block;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #c4170c;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.imagem p{
+  color: #2F3134;
+  font-size: 16px;
+}
+
+.imagem .descricao {
+  font-family: "Encode Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #2f3134;
+  margin-top: 20px;
+  line-height: 1.3;
+}
+
+.imagem .descricao-secundaria {
+  color: #2f3134;
+  font-family: "Encode Sans", sans-serif;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.divisor-secondary {
+  width: 624px;
+  height: 1px;
+  background-color: #F5F6F7;
+  margin-top: 15px;
+}
+
+.barra-lateral {
+  position: absolute;
+  top: 155px; 
+  left: 744px; 
+  width: 1px;
+  height: 850px; 
+  background-color:#EBEDEF;
+}
+
+.meio {
+  position: absolute;
+  top: 130px; /* Ajuste a posição conforme necessário */
+  right: 250px; /* Ajuste a posição conforme necessário */
+  width: 230px; /* Ajuste a largura conforme necessário */
+  margin: 20px 0; /* Espaçamento superior e inferior */
+  display: flex;
+  flex-direction: column; /* Para alinhar os elementos verticalmente */
+}
+
+.meio .imagem {
+  width: 100%; /* Ajusta a largura da imagem para ocupar o container */
+  height: auto;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 20px; /* Espaçamento entre cada imagem */
+}
+
+.meio .descricao,
+.lmeio .descricao-secundaria {
+  font-family: "Encode Sans", sans-serif;
+  margin-top: 10px; /* Espaçamento entre os textos */
+  text-align: left;
+}
+
+.meio .descricao {
+  ont-family: "Encode Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.meio .descricao-secundaria {
+  ont-family: "Encode Sans", sans-serif;
+  font-size: 14px;
+}
+
+.meio .imagem a {
+  display: block;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #16ae54; /* Nova cor */
+  margin-top: 10px;
+  text-decoration: none; /* Remove sublinhado */
+}
+
+.espiao-estatistico {
+  position: relative;
+  top: 0; /* Ajuste a posição conforme necessário */
+}
+
+.greve-segue-na-raposa {
+  position: relative;
+  top: 50px; /* Ajuste a posição conforme necessário */
+}
+
+.campeonato-frances {
+  position: relative;
+  top: 120px; /* Ajuste a posição conforme necessário */
+}
+
+.segunda-barra-lateral {
+  position: absolute;
+  top: 155px; /* Posicione conforme necessário */
+  left: 1030px; 
+  width: 1px;
+  height: 850px;
+  background-color: #EBEDEF;
+}
+
+/* Ajustes para a posição dos elementos no lado direito */
+
+.lado-direito {
+  position: absolute;
+  top: 150px; /* Ajuste a posição conforme necessário */
+  right: 20px; /* Ajuste a posição conforme necessário */
+  left: 1060px;
+  width: 240px; /* Ajuste a largura conforme necessário */
+  display: flex;
+  flex-direction: column; /* Para alinhar os elementos verticalmente */
+}
+
+.lado-direito .imagem {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.lado-direito .descricao,
+.lado-direito .descricao-secundaria,
+.lado-direito .descricao-terciaria {
+  font-family: "Encode Sans", sans-serif;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.lado-direito .descricao {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.lado-direito .descricao-secundaria {
+  font-size: 14px;
+  color: #303134; /* Nova cor para secundária */
+}
+
+.lado-direito .descricao-terciaria {
+  font-size: 14px;
+  color: #c4160c; /* Nova cor para terciária */
+}
+
+.lado-direito a {
+  display: block;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #EC8006; /* Nova cor para links */
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+/* Estilos específicos para cada div */
+
+.Verdades-Sceretas-2{
+  position: relative;
+  top: 62px; /* Ajuste a posição conforme necessário */
+}
+
+.Nos-Tempos-do-Imperador {
+  position: relative;
+  top: 78px; /* Ajuste a posição conforme necessário */
+}
+
